@@ -140,47 +140,52 @@ print(round_5)
 winner = player1
 print(winner, "you won game 2")
 
-# #Incrementation of game 
-# game = game + 1
-# # For game 3:
-# # James is dealt the following cards: 10 Diamonds, 2 Clubs, 3 Spades, 7 Diamonds, 4 Spades
-# # Jane is dealt the following cards: Queen Hearts, 9 Diamonds, 4 Hearts, 2 Diamonds , Queen Hearts
-# James_cards = [
-#     10 + diamonds,
-#     2 + clubs,
-#     3 + spades,
-#     7 + diamonds,
-#     4 + spades,
-# ]
+#Incrementation of game 
+game = game + 1
+# For game 3:
+# James is dealt the following cards: 10 Diamonds, 2 Clubs, 3 Spades, 7 Diamonds, 4 Spades
+# Jane is dealt the following cards: Queen Hearts, 9 Diamonds, 4 Hearts, 2 Diamonds , Queen Hearts
+James_cards = [
+    10 + diamonds,
+    2 + clubs,
+    3 + spades,
+    7 + diamonds,
+    4 + spades,
+]
 
-# Jane_cards = [
-#     Queen + hearts,
-#     9 + diamonds,
-#     4 + hearts,
-#     2 + diamonds,
-#     Queen + hearts,
-# ]
+Jane_cards = [
+    Queen + hearts,
+    9 + diamonds,
+    4 + hearts,
+    2 + diamonds,
+    Queen + hearts,
+]
 
-# # Follow the same algorithm to determine the winner of this game
-# # Print the value of the game variable to signify the end of the game
-# game = 3
+# Follow the same algorithm to determine the winner of this game
+# Print the value of the game variable to signify the end of the game
+game = 3
 
-# round_1 = (James_cards[0] >= Jane_cards[0])
-# round_2 = (James_cards[1] >= Jane_cards[1])
-# round_3 = (James_cards[2] >= Jane_cards[2])
-# round_4 = (James_cards[3] >= Jane_cards[3])
-# round_5 = (James_cards[4] >= Jane_cards[4])
+round_1 = (James_cards[0] >= Jane_cards[4])
+print(round_1)
+round_2 = (Jane_cards[0] >= James_cards[2])
+print(round_2)
+round_3 = (James_cards[4] >= Jane_cards[1])
+print(round_3)
+round_4 = (James_cards[1] >= Jane_cards[3])
+print(round_4)
+round_5 = (Jane_cards[2] >= James_cards[3])
+print(round_5)
 
 
-# print(round_1)
-# print(round_2)
-# print(round_3)
-# print(round_4)
-# print(round_5)
 
-# winner = player1
-# print(winner, "you won game 3")  
-# # Declare a variable `overall_winner` and set it equal to the player who won the most out of all 3 games
-# # Set this variable through the player number variable. Print the value of this variables.....
-# overall_winner = player2
-# print(overall_winner, "declared winner")
+
+
+
+
+
+winner = player2
+print(winner, "you won game 3")  
+# Declare a variable `overall_winner` and set it equal to the player who won the most out of all 3 games
+# Set this variable through the player number variable. Print the value of this variables.....
+overall_winner = player2
+print(overall_winner, "declared winner")

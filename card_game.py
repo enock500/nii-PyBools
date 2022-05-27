@@ -186,6 +186,5 @@ print(round_5)
 winner = player2
 print(winner, "you won game 3")  
 # Declare a variable `overall_winner` and set it equal to the player who won the most out of all 3 games
-# Set this variable through the player number variable. Print the value of this variables.....
-overall_winner = player2
-print(overall_winner, "declared winner")
+# Set this variable through the player number variable. Print the value of this variables..........
+overall_winner = player2  

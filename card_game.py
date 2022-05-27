@@ -93,53 +93,52 @@ round_5 = (Jane_cards[2] >= James_cards[3])
 print(round_5)
 
 
-# winner = player2
-# print(winner, "you won game 1") 
+winner = player2
+print(winner, "you won game 1") 
 
 
 # #Incrementation of game 
-# game = game + 1
+game = game + 1
 
 
 
 
-# # For game 2:
-# # James is dealt the following cards: 7 Clubs, 5 Spades, 2 Hearts, Jack Clubs, 2 Spades
-# # Jane is dealt the following cards: Jack Hearts, King Diamonds, 8 Clubs, 9 Hearts , 7 Spades
+# For game 2:
+# James is dealt the following cards: 7 Clubs, 5 Spades, 2 Hearts, Jack Clubs, 2 Spades
+# Jane is dealt the following cards: Jack Hearts, King Diamonds, 8 Clubs, 9 Hearts , 7 Spades
 
-# James_cards = [
-#     7 + clubs,
-#     5 + spades,
-#     2 + hearts,
-#     Jack + clubs,
-#     2 + spades,
-# ]
+James_cards = [
+    7 + clubs,
+    5 + spades,
+    2 + hearts,
+    Jack + clubs,
+    2 + spades,
+ ]
 
-# Jane_cards = [
-#     Jack + hearts,
-#     King + diamonds,
-#     8 + clubs,  
-#     9 + hearts, 
-#     7 + spades,
-# ]
+Jane_cards = [
+    Jack + hearts,
+    King + diamonds,
+    8 + clubs,  
+    9 + hearts, 
+    7 + spades,
+]
 
-# # Follow the same algorithm to determine the winner of this game
-# # Don't forget to increment the game variable!
-# game = 2
-# round_1 = (James_cards[0] >= Jane_cards[0])
-# round_2 = (James_cards[1] >= Jane_cards[1])
-# round_3 = (James_cards[2] >= Jane_cards[2])
-# round_4 = (James_cards[3] >= Jane_cards[3])
-# round_5 = (James_cards[4] >= Jane_cards[4])
+# Follow the same algorithm to determine the winner of this game
+# Don't forget to increment the game variable!
+game = 2
+round_1 = (James_cards[0] >= Jane_cards[4])
+print(round_1)
+round_2 = (Jane_cards[0] >= James_cards[2])
+print(round_2)
+round_3 = (Jane_cards[1] >= James_cards[4])
+print(round_3)
+round_4 = (James_cards[1] >= Jane_cards[3])
+print(round_4)
+round_5 = (James_cards[3] >= Jane_cards[2])
+print(round_5)
 
-# print(round_1)
-# print(round_2)
-# print(round_3)
-# print(round_4)
-# print(round_5)
-
-# winner = player2
-# print(winner, "you won game 2")
+winner = player1
+print(winner, "you won game 2")
 
 # #Incrementation of game 
 # game = game + 1
